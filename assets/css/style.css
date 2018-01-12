@@ -1,0 +1,311 @@
+body {
+    background-image: url("../images/swirl_pattern.png");
+    background-repeat: repeat;
+}
+
+header {
+	width: 100%;
+	border-bottom: 2px solid rgba(117, 117, 117, 0.4);
+	background-color: white;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.5em; 
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.content {
+	width: 960px;
+	background-image: url("../images/swirl_pattern.png");
+	display: block;
+	margin: auto;
+	clear: both;
+	overflow: auto;
+	padding-bottom: 120px; 
+}
+
+
+/* Nav-Bar or Header Classes */
+.Nav-Bar {
+	width: 960px;
+	margin: auto;
+	clear: both;
+	overflow: auto;
+	height: 90px; 
+	line-height: 90px; 
+	vertical-align: middle; 
+}
+
+.Nav-Bar h1 {
+	width: 23%;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.5em; 
+	margin-top: 0;
+	width: 23%;
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.Nav-Bar ul {
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: rgba(117, 117, 117, 0.6);
+	float: right;
+	width: 	30%;
+}
+
+.Nav-Bar li {
+	display: inline;
+}
+
+.Nav-Bar span {
+	color: rgba(117, 117, 117, 0.6);
+	margin-right: 10px;
+}
+
+.Nav-Bar a:link {
+	color: #777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.Nav-Bar a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.Nav-Bar a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* Ends Nav-Bar Stuff*/
+
+
+/* Sidebar classes*/
+.Sidebar {
+	width: 270px; 
+	height: 190px;
+	float: right;
+	background-color: white;
+	border: 1px solid #dddddd;
+}
+
+.Sidebar h1 {
+	height: 65px; 
+	color: #4aaaa5;
+	line-height: 90px; 
+	vertical-align: middle;
+	text-align: center; 
+}
+
+.Sidebar hr {
+	border: 0 none;
+	width: 80%;
+	height: 2px;
+	background-color: rgba(117, 117, 117, 0.3);
+}
+
+.Sidebar .connection-icons-block {
+	width: 82%;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.Sidebar .connection-icons-block img{
+	margin: 5px;
+	height: 60px;
+	width: 60px;
+	padding-bottom: 10px;
+}
+/*Ends Side Bar classes*/
+
+
+/* About-Section Classes*/
+.About-Section {
+	float: left;
+	width: 650px;
+	background-color: white; 
+	border: 1px solid #dddddd;
+}
+
+.About-Section h1 {
+	width: 23%;
+	border: none;
+	height: 90px; 
+	color: #4aaaa5;
+	line-height: 90px; 
+	vertical-align: middle;
+	text-align: center; 
+}
+
+.About-Section hr {
+	border: 0 none;
+	height: 3px;
+	background-color: rgba(117, 117, 117, 0.3);
+	width: 94%;
+}
+
+.About-Section img {
+	margin: 0 20px;
+	float: left;
+}
+
+.About-Section p {
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 30px;
+	font-size: 1.2em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: rgba(117, 117, 117, 0.6);
+}
+/*End About Section Class*/
+
+
+/* Portfolio Section Classes*/
+.Portfolio-Section {
+	float: left;
+	width: 650px;
+	background-color: white; 
+	border: 1px solid #dddddd;
+}
+
+.Portfolio-Section h1 {
+	width: 23%;
+	border: none;
+	height: 90px; 
+	color: #4aaaa5;
+	line-height: 90px; 
+	vertical-align: middle;
+	text-align: center; 
+}
+
+.Portfolio-Section hr {
+	border: 0 none;
+	height: 3px;
+	background-color: rgba(117, 117, 117, 0.3);
+	width: 94%;
+}
+
+.Portfolio-Section .project-image-left{
+	border: 1px solid rgba(117, 117, 117, 0.3);
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 270px;
+	width: 270px;
+	margin-bottom: 60px;
+}
+
+.Portfolio-Section .project-image-right{
+	border: 1px solid rgba(117, 117, 117, 0.3);
+	position: relative;
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 270px;
+	width: 270px;
+	margin-bottom: 60px;
+}
+
+.Portfolio-Section .banner{
+	position: absolute;
+	top: 200px;
+	background-color: #4aaaa5;
+	font-size: 1.5em;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle; 
+	text-align: center; 
+	font-size: 1.1em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white; 
+}
+/* End Portfolio Classes */
+
+
+/* Contact Me Classes*/
+.Contact-Section {
+	float: left;
+	width: 650px;
+	background-color: white; 
+	border: 1px solid #dddddd;
+}
+
+.Contact-Section h1 {
+	width: 23%;
+	border: none;
+	height: 90px; 
+	color: #4aaaa5;
+	line-height: 90px; 
+	vertical-align: middle;
+	text-align: center; 
+}
+
+.Contact-Section hr {
+	border: 0 none;
+	height: 3px;
+	background-color: rgba(117, 117, 117, 0.3);
+	width: 94%;
+}
+
+.Contact-Section form {
+	margin: auto;
+	width: 94%;
+}
+
+.Contact-Section p {
+	margin-bottom: 5px;
+	font-size: 1.1em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.Contact-Section input {
+	width: 100%;
+	height: 30px;
+	margin: auto;
+}
+
+.Contact-Section button {
+	margin-bottom: 30px;
+	padding: 9px 27px;
+	font-size: 0.9em; 
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* End Contact Classes*/
+
+
+/* Footer Class*/
+.footer {
+	display: block;
+	height: 90px;
+	line-height: 90px; 
+	vertical-align: middle; 
+	text-align: center;
+	background-color: #666666;
+	font-size: 0.75em;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 6px solid #4aaaa5;
+    bottom: 0;
+    width: 100%;
+    margin-top: -90px;
+}
+/* Ends Footer Class*/
+
+
+
+
