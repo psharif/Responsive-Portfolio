@@ -102,6 +102,7 @@ h1 {
 }
 
 .Sidebar h1 {
+	font-size: 20px;
 	height: 65px; 
 	color: #4aaaa5;
 	line-height: 90px; 
@@ -264,10 +265,160 @@ h1 {
 /* Ends Footer Class*/
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 980px) {
 	
 	.wrapper {
-		width: 650px;
+		width: 100%;
+	}
+	
+	.Nav-Bar {
+		width: 700px;
+		height: 80px;
+		line-height: 80px;
+	}
+
+	.Nav-Bar h1 {
+		font-size: 18px; 
+	}
+
+	.Nav-Bar ul {
+		font-size: 0.9em;
+	}
+
+	.content {
+		width: 700px;
+	}
+
+	.Sidebar {
+		height: 150px;
+		width: 200px;
+	}
+
+	.Sidebar h1 {
+		font-size: 15px;
+		height: 50px;
+		line-height: 70px; 
+		text-align: left; 
+		margin-left: 25px;
+	}
+
+	.Sidebar hr {
+		width: 80%;
+		height: 1.2px;
+	}
+
+	.Sidebar .connection-icons-block {
+		width: 84%;
+	}
+
+
+	.Sidebar .connection-icons-block img{
+		margin: 4px;
+		height: 45px;
+		width: 45px;
+		padding-bottom: 10px;
+	}
+
+	/*Classes That share attributes*/
+	 .About-Section h1, .Contact-Section h1, 
+	 .Portfolio-Section h1 {
+    	margin-left: 20px;
+    	text-align: left; 
+    	font-size: 22px;
+    	height: 55px;
+    	line-height: 65px;
+    }
+
+    .About-Section hr, .Contact-Section hr, .Portfolio-Section hr {
+		height: 2px;
+	}
+	 .About-Section, .Contact-Section, .Portfolio-Section {
+    	font-size: 0.8em;
+    	width: 460px;
+    }
+	/*End of classes that share attributes*/
+
+	/* About-Section Classes*/
+    .About-Section img {
+    	padding: 10px; 
+    	width: 400px;
+    	height: 300px;
+    	margin-bottom: 10px;
+    }
+
+    .About-Section p {
+    	padding: 0 15px;
+    }
+    /* End About-Section Classes*/
+	
+	/* Contact Me Classes*/
+	.Contact-Section textarea {
+		height: 260px;
+		width: 100%;
+	}
+
+	.Contact-Section button {
+		margin-bottom: 28px;
+		padding: 8px 25px;
+		font-size: 0.8em; 
+	}
+	/* End Contact Classes*/
+
+	/*Portfolio Section Classes*/
+	.Portfolio-Section {
+		margin: auto;
+	}
+
+	.Portfolio-Section .project-image-left{
+		float: none;
+		margin: auto;
+		height: 350px;
+		width: 400px;
+		margin-bottom: 30px;
+	}
+
+	.Portfolio-Section .project-image-right{
+		float: none;
+		margin: auto;
+		height: 350px;
+		width: 400px;
+		margin-bottom: 30px;
+	}
+
+	.Portfolio-Section .banner{
+		top: 250px;
+		font-size: 14px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.1em;
+	}
+	
+	.Portfolio-Section img {
+		height: 350px;
+		width: 400px;
+	}
+
+
+	/* End Portfolio Section*/
+	
+	/* footer classes */
+	/*.footer {
+		display: block;
+		height: 70px;
+		line-height: 70px; 
+		border-top: 6px solid #4aaaa5;
+	    width: 100%;
+	    margin-top: 0px;
+	}	
+	/*End of Footer Classes*/
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.wrapper {
+		width: 100%;
 	}
 	
 	.Nav-Bar {
@@ -326,7 +477,8 @@ h1 {
 		height: 2px;
 	}
 
-	 .About-Section, .Contact-Section, .Portfolio-Section {
+	.About-Section, .Contact-Section, .Portfolio-Section {
+		width: 100%;
     	font-size: 0.8em;
     }
 	/*End of classes that share attributes*/
@@ -366,6 +518,34 @@ h1 {
 		line-height: 50px;
 		font-size: 1.1em;
 	}
+
+	.Portfolio-Section .project-image-left{
+		float: left;
+		margin-left: 20px;
+		margin-right: 20px;
+		height: 270px;
+		width: 270px;
+		margin-bottom: 60px;
+	}
+
+	.Portfolio-Section .project-image-right{
+		float: right;
+		margin-left: 20px;
+		margin-right: 20px;
+		height: 270px;
+		width: 270px;
+		margin-bottom: 60px;
+	}
+
+	
+	.Portfolio-Section .banner{
+		top: 200px;
+	}
+	
+	.Portfolio-Section img {
+		height: 270px;
+		width: 270px;
+	}
 	/* End Portfolio Section*/
 	
 	/* footer classes */
@@ -379,5 +559,6 @@ h1 {
 	}	
 	/*End of Footer Classes*/
 }
+
 
 
